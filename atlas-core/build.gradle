@@ -50,7 +50,7 @@ targetCompatibility = 1.7
 
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     provided ('com.android.support:support-v4:25.3.1'){
         transitive = true
     }

@@ -4,7 +4,7 @@
 2. 支持awb之间的依赖，具体参考 firstbundle的配置
 	1. dependencies 里添加 provided依赖 
 
-		 	providedCompile project(':publicbundle')
+		 	implementation project(':publicbundle')
 		 
 	2. 申明bundle之间依赖关系
 

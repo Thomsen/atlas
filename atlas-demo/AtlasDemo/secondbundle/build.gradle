@@ -10,12 +10,12 @@ group = 'com.atlas.demo'
 version = '1.0.0'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 27
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
 
@@ -31,16 +31,16 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(":secondbundlelibrary")
-    providedCompile 'com.android.support:appcompat-v7:25.1.0'
-    providedCompile 'com.android.support:support-v4:25.3.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(":secondbundlelibrary")
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
 
-//    providedCompile 'com.taobao.android:atlas_core:5.0.8.0-rc45@aar'
-    providedCompile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
-    providedCompile project(':middlewarelibrary')
+//    implementation 'com.taobao.android:atlas_core:5.0.8.0-rc45@aar'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation project(':middlewarelibrary')
 
-    providedCompile project(':atlas_core')
+    implementation project(':atlas_core')
 
 
 }

@@ -16,12 +16,12 @@ version = '1.0.2'
 
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 27
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
 
@@ -42,17 +42,17 @@ android {
 
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    providedCompile project(':middlewarelibrary')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':middlewarelibrary')
 
-    providedCompile project(':publicbundle')
+    implementation project(':publicbundle')
 
-    compile 'com.android.support.constraint:constraint-layout:1.0.0'
-    providedCompile 'com.android.support:support-v4:25.3.0'
-    providedCompile 'com.android.support:appcompat-v7:25.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.0'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
 
-//    providedCompile 'com.taobao.android:atlas_core:5.0.8.1-rc1@aar'
-    providedCompile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+//    implementation 'com.taobao.android:atlas_core:5.0.8.1-rc1@aar'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 
-    compile project(':atlas_core')
+    implementation project(':atlas_core')
 }

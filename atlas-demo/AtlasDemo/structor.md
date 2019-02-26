@@ -15,7 +15,7 @@
 		"AtlasDemo:splashscreen:unspecified@aar",
 		"com.alibaba:fastjson:1.1.45.android@jar",
 		"com.android.support.constraint:constraint-layout-solver:1.0.0-alpha8@jar",
-		"com.android.support.constraint:constraint-layout:1.0.0-alpha8@aar",
+		"com.android.support.constraint:constraint-layout:1.1.3@aar",
 		"com.android.support:animated-vector-drawable:25.3.0@aar",
 		"com.android.support:appcompat-v7:25.3.0@aar",
 		"com.android.support:design:25.3.0@aar",
